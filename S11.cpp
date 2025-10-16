@@ -1,15 +1,15 @@
 #include <iostream>
 
-использование пространство имён std;
+using namespace std;
 
-main int() {
+int main() {
     setlocale(LC_ALL, "RU");
     int i = 0;
     while (i <= 100) {
-        если (i % 3 == 0) {
- cout << i << "\t";
+        if (i % 3 == 0) {
+            cout << i << "\t";
         }
- я++;
+        i++;
     }
-    0 возврат;
+    return 0;
 }
