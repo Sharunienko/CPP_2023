@@ -1,16 +1,16 @@
 #include <iostream>
 
-использование пространство имён std;
+using namespace std;
 
-main int() {
-     int сумма = 0;
+int main() {
+     int sum = 0;
     
     for (int i = 1; i <= 1000; i += 4) {
-        если (i % 7 == 0) {
- сумма += i;
+        if (i % 7 == 0) {
+            sum += i;
         }
     }
     
- cout << "Сумма: " << сумма << endl;
-    0 возврат;
+    cout << "Sum: " << sum << endl;
+    return 0;
 }
